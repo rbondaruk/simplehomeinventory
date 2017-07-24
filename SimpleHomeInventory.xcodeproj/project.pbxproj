@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C78CCA889EEBBC92CC5AFE /* Pods_SimpleHomeInventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562920DA358B262A30E229E4 /* Pods_SimpleHomeInventory.framework */; };
+		B623706E1E5E289400A43B90 /* ItemValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623706D1E5E289400A43B90 /* ItemValue.swift */; };
+		B641C42D1E5D53FA00B4DD8E /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641C42C1E5D53FA00B4DD8E /* AdminVC.swift */; };
+		B6576C7A1F21D8AA00EA6226 /* InAppPurchaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6576C791F21D8AA00EA6226 /* InAppPurchaseVC.swift */; };
+		B66B59B01E65291400444C73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B66B59AF1E65291400444C73 /* GoogleService-Info.plist */; };
+		B6BB9E521F21658C00EB6F15 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BB9E511F21658C00EB6F15 /* StoreKit.framework */; };
+		B6C651601E5BF84700D849BF /* ItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6515F1E5BF84700D849BF /* ItemsVC.swift */; };
+		B6C651621E5BFD4D00D849BF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C651611E5BFD4D00D849BF /* Item.swift */; };
+		B6C651641E5BFE6F00D849BF /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C651631E5BFE6F00D849BF /* ItemCell.swift */; };
+		B6D539941E5C053B001AE377 /* NewItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D539931E5C053B001AE377 /* NewItemVC.swift */; };
+		B6DE3FE91E5A233A00E850FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE3FE81E5A233A00E850FE /* AppDelegate.swift */; };
+		B6DE3FEB1E5A233A00E850FE /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE3FEA1E5A233A00E850FE /* SignInVC.swift */; };
+		B6DE3FEE1E5A233A00E850FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE3FEC1E5A233A00E850FE /* Main.storyboard */; };
+		B6DE3FF01E5A233A00E850FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DE3FEF1E5A233A00E850FE /* Assets.xcassets */; };
+		B6DE3FF31E5A233A00E850FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE3FF11E5A233A00E850FE /* LaunchScreen.storyboard */; };
+		B6EE44C21E5A2F8B008DCC92 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44C11E5A2F8B008DCC92 /* DataService.swift */; };
+		B6EE44C41E5A3079008DCC92 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44C31E5A3079008DCC92 /* SignUpVC.swift */; };
+		B6EE44C61E5A3436008DCC92 /* roomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44C51E5A3436008DCC92 /* roomsVC.swift */; };
+		B6EE44C81E5A42F3008DCC92 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44C71E5A42F3008DCC92 /* CardView.swift */; };
+		B6EE44CA1E5A4374008DCC92 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44C91E5A4374008DCC92 /* RoomCell.swift */; };
+		B6EE44CC1E5A439E008DCC92 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44CB1E5A439E008DCC92 /* Room.swift */; };
+		B6EE44CE1E5A48BD008DCC92 /* NewRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE44CD1E5A48BD008DCC92 /* NewRoomVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562920DA358B262A30E229E4 /* Pods_SimpleHomeInventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleHomeInventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69434A6F0B4C508555B74820 /* Pods-SimpleHomeInventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHomeInventory.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHomeInventory/Pods-SimpleHomeInventory.release.xcconfig"; sourceTree = "<group>"; };
+		75779FF42F02D2D98EF0DD5C /* Pods-SimpleHomeInventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHomeInventory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHomeInventory/Pods-SimpleHomeInventory.debug.xcconfig"; sourceTree = "<group>"; };
+		B623706D1E5E289400A43B90 /* ItemValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemValue.swift; sourceTree = "<group>"; };
+		B641C42C1E5D53FA00B4DD8E /* AdminVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		B6576C791F21D8AA00EA6226 /* InAppPurchaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InAppPurchaseVC.swift; path = ../InAppPurchaseVC.swift; sourceTree = "<group>"; };
+		B66B59AF1E65291400444C73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6BB9E511F21658C00EB6F15 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B6C6515F1E5BF84700D849BF /* ItemsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsVC.swift; sourceTree = "<group>"; };
+		B6C651611E5BFD4D00D849BF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B6C651631E5BFE6F00D849BF /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		B6D539931E5C053B001AE377 /* NewItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemVC.swift; sourceTree = "<group>"; };
+		B6DE3FE51E5A233A00E850FE /* SimpleHomeInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHomeInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DE3FE81E5A233A00E850FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6DE3FEA1E5A233A00E850FE /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		B6DE3FED1E5A233A00E850FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6DE3FEF1E5A233A00E850FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6DE3FF21E5A233A00E850FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6DE3FF41E5A233A00E850FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EE44C11E5A2F8B008DCC92 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B6EE44C31E5A3079008DCC92 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		B6EE44C51E5A3436008DCC92 /* roomsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roomsVC.swift; sourceTree = "<group>"; };
+		B6EE44C71E5A42F3008DCC92 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B6EE44C91E5A4374008DCC92 /* RoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		B6EE44CB1E5A439E008DCC92 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		B6EE44CD1E5A48BD008DCC92 /* NewRoomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRoomVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DE3FE21E5A233A00E850FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C78CCA889EEBBC92CC5AFE /* Pods_SimpleHomeInventory.framework in Frameworks */,
+				B6BB9E521F21658C00EB6F15 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E2706013F859A255081E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BB9E511F21658C00EB6F15 /* StoreKit.framework */,
+				562920DA358B262A30E229E4 /* Pods_SimpleHomeInventory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70575565CBBF1A1B034D6B8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75779FF42F02D2D98EF0DD5C /* Pods-SimpleHomeInventory.debug.xcconfig */,
+				69434A6F0B4C508555B74820 /* Pods-SimpleHomeInventory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6DE3FDC1E5A233A00E850FE = {
+			isa = PBXGroup;
+			children = (
+				B6DE3FE71E5A233A00E850FE /* SimpleHomeInventory */,
+				B6DE3FE61E5A233A00E850FE /* Products */,
+				70575565CBBF1A1B034D6B8A /* Pods */,
+				64E2706013F859A255081E01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DE3FE61E5A233A00E850FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE3FE51E5A233A00E850FE /* SimpleHomeInventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DE3FE71E5A233A00E850FE /* SimpleHomeInventory */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE44C01E5A2B09008DCC92 /* Controller */,
+				B6EE44BF1E5A2B04008DCC92 /* Model */,
+				B6EE44BE1E5A2AFD008DCC92 /* View */,
+				B6DE3FE81E5A233A00E850FE /* AppDelegate.swift */,
+				B6EE44C11E5A2F8B008DCC92 /* DataService.swift */,
+				B6DE3FEC1E5A233A00E850FE /* Main.storyboard */,
+				B6DE3FEF1E5A233A00E850FE /* Assets.xcassets */,
+				B6DE3FF11E5A233A00E850FE /* LaunchScreen.storyboard */,
+				B66B59AF1E65291400444C73 /* GoogleService-Info.plist */,
+				B6DE3FF41E5A233A00E850FE /* Info.plist */,
+			);
+			path = SimpleHomeInventory;
+			sourceTree = "<group>";
+		};
+		B6EE44BE1E5A2AFD008DCC92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE44C91E5A4374008DCC92 /* RoomCell.swift */,
+				B6EE44C71E5A42F3008DCC92 /* CardView.swift */,
+				B6C651631E5BFE6F00D849BF /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B6EE44BF1E5A2B04008DCC92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE44CB1E5A439E008DCC92 /* Room.swift */,
+				B6C651611E5BFD4D00D849BF /* Item.swift */,
+				B623706D1E5E289400A43B90 /* ItemValue.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6EE44C01E5A2B09008DCC92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6576C791F21D8AA00EA6226 /* InAppPurchaseVC.swift */,
+				B6DE3FEA1E5A233A00E850FE /* SignInVC.swift */,
+				B6EE44C31E5A3079008DCC92 /* SignUpVC.swift */,
+				B6EE44C51E5A3436008DCC92 /* roomsVC.swift */,
+				B6EE44CD1E5A48BD008DCC92 /* NewRoomVC.swift */,
+				B6C6515F1E5BF84700D849BF /* ItemsVC.swift */,
+				B6D539931E5C053B001AE377 /* NewItemVC.swift */,
+				B641C42C1E5D53FA00B4DD8E /* AdminVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DE3FE41E5A233A00E850FE /* SimpleHomeInventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DE3FF71E5A233A00E850FE /* Build configuration list for PBXNativeTarget "SimpleHomeInventory" */;
+			buildPhases = (
+				674FF912A98D7A9F25B959C6 /* [CP] Check Pods Manifest.lock */,
+				B6DE3FE11E5A233A00E850FE /* Sources */,
+				B6DE3FE21E5A233A00E850FE /* Frameworks */,
+				B6DE3FE31E5A233A00E850FE /* Resources */,
+				618015149CB7729D3E984E34 /* [CP] Embed Pods Frameworks */,
+				CCE1D66A349D8D9A0CE72570 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleHomeInventory;
+			productName = SimpleHomeInventory;
+			productReference = B6DE3FE51E5A233A00E850FE /* SimpleHomeInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DE3FDD1E5A233A00E850FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bondaruk;
+				TargetAttributes = {
+					B6DE3FE41E5A233A00E850FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87PM2684EH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B6DE3FE01E5A233A00E850FE /* Build configuration list for PBXProject "SimpleHomeInventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6DE3FDC1E5A233A00E850FE;
+			productRefGroup = B6DE3FE61E5A233A00E850FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DE3FE41E5A233A00E850FE /* SimpleHomeInventory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DE3FE31E5A233A00E850FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DE3FF31E5A233A00E850FE /* LaunchScreen.storyboard in Resources */,
+				B66B59B01E65291400444C73 /* GoogleService-Info.plist in Resources */,
+				B6DE3FF01E5A233A00E850FE /* Assets.xcassets in Resources */,
+				B6DE3FEE1E5A233A00E850FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		618015149CB7729D3E984E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleHomeInventory/Pods-SimpleHomeInventory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674FF912A98D7A9F25B959C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE1D66A349D8D9A0CE72570 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleHomeInventory/Pods-SimpleHomeInventory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DE3FE11E5A233A00E850FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B641C42D1E5D53FA00B4DD8E /* AdminVC.swift in Sources */,
+				B6EE44C41E5A3079008DCC92 /* SignUpVC.swift in Sources */,
+				B6EE44CA1E5A4374008DCC92 /* RoomCell.swift in Sources */,
+				B623706E1E5E289400A43B90 /* ItemValue.swift in Sources */,
+				B6EE44CC1E5A439E008DCC92 /* Room.swift in Sources */,
+				B6D539941E5C053B001AE377 /* NewItemVC.swift in Sources */,
+				B6576C7A1F21D8AA00EA6226 /* InAppPurchaseVC.swift in Sources */,
+				B6C651601E5BF84700D849BF /* ItemsVC.swift in Sources */,
+				B6EE44CE1E5A48BD008DCC92 /* NewRoomVC.swift in Sources */,
+				B6EE44C21E5A2F8B008DCC92 /* DataService.swift in Sources */,
+				B6C651621E5BFD4D00D849BF /* Item.swift in Sources */,
+				B6EE44C61E5A3436008DCC92 /* roomsVC.swift in Sources */,
+				B6C651641E5BFE6F00D849BF /* ItemCell.swift in Sources */,
+				B6DE3FEB1E5A233A00E850FE /* SignInVC.swift in Sources */,
+				B6EE44C81E5A42F3008DCC92 /* CardView.swift in Sources */,
+				B6DE3FE91E5A233A00E850FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6DE3FEC1E5A233A00E850FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DE3FED1E5A233A00E850FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6DE3FF11E5A233A00E850FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DE3FF21E5A233A00E850FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6DE3FF51E5A233A00E850FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6DE3FF61E5A233A00E850FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DE3FF81E5A233A00E850FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75779FF42F02D2D98EF0DD5C /* Pods-SimpleHomeInventory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PM2684EH;
+				INFOPLIST_FILE = SimpleHomeInventory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondaruk.SimpleHomeInventory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6DE3FF91E5A233A00E850FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69434A6F0B4C508555B74820 /* Pods-SimpleHomeInventory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PM2684EH;
+				INFOPLIST_FILE = SimpleHomeInventory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondaruk.SimpleHomeInventory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DE3FE01E5A233A00E850FE /* Build configuration list for PBXProject "SimpleHomeInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE3FF51E5A233A00E850FE /* Debug */,
+				B6DE3FF61E5A233A00E850FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DE3FF71E5A233A00E850FE /* Build configuration list for PBXNativeTarget "SimpleHomeInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE3FF81E5A233A00E850FE /* Debug */,
+				B6DE3FF91E5A233A00E850FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6DE3FDD1E5A233A00E850FE /* Project object */;
+}
